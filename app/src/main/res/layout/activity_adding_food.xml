@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddingFood">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adding a new Food Item"
+
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/courgette"
+
+        android:padding="5dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name of the Food"
+        android:layout_gravity="left"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/lemonada"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/food_name"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="20dp"
+        android:inputType="text"
+        android:hint="food name"
+        android:background="@drawable/custom_edittext"
+        android:padding="10dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expiry Date"
+        android:layout_gravity="left"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/lemonada"
+        android:layout_margin="20dp"
+        android:padding="5dp" />
+
+    <DatePicker
+        android:id="@+id/exp_date"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:background="@drawable/custom_edittext"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"
+        android:layout_marginLeft="20dp"
+        android:inputType="text"
+        android:padding="3dp" />
+
+    <Button
+        android:id="@+id/add_food_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        android:layout_margin="10dp"
+        android:text="Add"
+
+        />
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1083966417485",
+    "firebase_url": "https://foodies-fridge.firebaseio.com",
+    "project_id": "foodies-fridge",
+    "storage_bucket": "foodies-fridge.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083966417485:android:235af9eb8b1b74d3da4a04",
+        "android_client_info": {
+          "package_name": "com.example.foodjournal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083966417485-grdi5cie9bvfq9mvmrcf3oiioqfi4q5i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.foodjournal",
+            "certificate_hash": "f5a142c07c1f05b8325f26e04b8bef8175e3ad49"
+          }
+        },
+        {
+          "client_id": "1083966417485-e9q5rfdjtmav1s3ni81fa20gj3uin5rq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKd6hD6-6lbeb2aG-tIjBSjitxekvfPCo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083966417485-e9q5rfdjtmav1s3ni81fa20gj3uin5rq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

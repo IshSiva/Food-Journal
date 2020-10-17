@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".JournalDetails">
+
+    <TextView
+        android:id="@+id/detail_title_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="The Food Adventure"
+        android:textSize="20dp"
+        android:background="@drawable/custom_edittext"
+        android:textColor="@color/black"
+        android:fontFamily="@font/courgette"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        />
+
+    <ImageView
+        android:background="@drawable/custom_edittext"
+        android:id="@+id/detail_img_view"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_baseline_fastfood"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:scaleType="centerCrop"
+        android:padding="10dp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/detail_calendar_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Date"
+        android:drawableLeft="@drawable/ic_baseline_calendar"
+        android:background="@drawable/custom_edittext"
+        android:paddingLeft="20dp"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/courgette"
+        android:layout_margin="20dp"
+        />
+
+
+    <TextView
+        android:id="@+id/detail_desc_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/custom_edittext"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Description"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/courgette"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
+        android:text="BACK"
+        android:onClick="goBack"
+
+    />
+
+
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/fridgeManager">
+
+    <fragment
+        android:id="@+id/fridgeManager"
+        android:name="com.example.foodjournal.FridgeManager"
+        android:label="fragment_fridge_manager"
+        tools:layout="@layout/fragment_fridge_manager" />
+    <fragment
+        android:id="@+id/journal"
+        android:name="com.example.foodjournal.Journal"
+        android:label="fragment_journal"
+        tools:layout="@layout/fragment_journal" />
+</navigation>
